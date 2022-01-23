@@ -1,0 +1,50 @@
+@media(max-width:1200px){
+    .nav_bar, .hero_part{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media(max-width:992px){
+    .nav_bar, .hero_part{
+        margin: auto;
+    }
+}
+@media(max-width:992px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:768px){
+    .container{
+        margin:0;
+        padding: 0;
+        width: 100%;
+
+    }
+}
+@media(max-width:992px){
+    .hero_part .hero_img{
+        /* margin-top: 50px;
+        padding: 0; */
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .menu{
+        padding: 0;
+
+    }
+}
+@media(max-width:768px){
+    .feature_part{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:768px){
+    .contract_part{
+        display: flex;
+        justify-content: center;
+    }
+}
